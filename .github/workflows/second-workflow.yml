@@ -9,3 +9,5 @@ jobs:
       - name: Run Python Script
         run: print("Hello GitHub Actions!")
         shell: python
+      - uses: actions/checkout@v3
+      - run: python main.py
