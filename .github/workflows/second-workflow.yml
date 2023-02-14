@@ -4,8 +4,8 @@ on:
 
 jobs:
     run-commands:
-    runs-on: ubuntu-latest
-    steps: 
-    - name: Run Python Script
-      run: print("Hello GitHub Actions!")
-      shell: python
+      runs-on: ubuntu-latest
+      steps: 
+      - name: Run Python Script
+        run: print("Hello GitHub Actions!")
+        shell: python
